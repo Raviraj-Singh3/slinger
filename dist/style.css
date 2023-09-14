@@ -434,10 +434,6 @@ video {
   display: none;
 }
 
-html {
-  font-family: Proxima Nova, system-ui, sans-serif;
-}
-
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -562,10 +558,6 @@ html {
   margin-right: 0.25rem;
 }
 
-.mr-5 {
-  margin-right: 1.25rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
 }
@@ -578,10 +570,6 @@ html {
   margin-top: 2rem;
 }
 
-.mb-0 {
-  margin-bottom: 0px;
-}
-
 .flex {
   display: flex;
 }
@@ -590,30 +578,21 @@ html {
   width: 100%;
 }
 
-.w-auto {
-  width: auto;
-}
-
-.max-w-max {
-  max-width: -moz-max-content;
-  max-width: max-content;
-}
-
 .justify-center {
   justify-content: center;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
-.bg-slate-800 {
+.bg-regal-blue {
   --tw-bg-opacity: 1;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+  background-color: rgb(32 27 45 / var(--tw-bg-opacity));
 }
 
 .p-0 {
   padding: 0px;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .pb-5 {
@@ -628,8 +607,9 @@ html {
   text-align: center;
 }
 
-.text-justify {
-  text-align: justify;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-sm {
@@ -640,16 +620,6 @@ html {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -670,13 +640,9 @@ html {
     width: 33.333333%;
   }
 
-  .tablet\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .tablet\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
 }
+

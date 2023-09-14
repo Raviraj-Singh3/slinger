@@ -14,7 +14,10 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        'Futura PT': ['Futura PT', 'sans-serif']
+        'Futura': 'Futura'
+      },
+      colors: {
+        'regal-blue': '#201B2D',
       },
     }
   },
